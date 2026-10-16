@@ -266,6 +266,9 @@ $(call inherit-product, hardware/nothing/nt-fwk/nt-fwk.mk)
 # Overlays
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-miku
+
 PRODUCT_PACKAGES += \
     NothingCarrierConfigResTarget \
     NothingFrameworksResTarget \
