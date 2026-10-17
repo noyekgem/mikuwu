@@ -15,7 +15,7 @@ PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A142P
 PRODUCT_NAME := miku_PacmanPro
 
-MIKU_MASTER := Itis_Sajjad
+MIKU_MASTER := Itis_Sajjad YukiSoall
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
