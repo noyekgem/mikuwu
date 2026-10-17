@@ -6,8 +6,8 @@
 # Inherit from the custom device configuration.
 $(call inherit-product, device/nothing/Aerodactyl/device-Pacman.mk)
 
-# Inherit from the LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the Miku-UI configuration.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := Pacman
